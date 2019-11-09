@@ -5,20 +5,24 @@ height: 100%;
 .header-1 {
 width: 100%;
 background-color: #252523;
-height: 99px;
+height: 60px;
 }
 main {
 margin: 0 auto;
-width: 980px;
 position: relative;
 }
 .logo { 
 float: left;
-padding: 29px;
-width: 70%;
+padding: 10px;
+width: 60%;
 }
 .contato ul li{
+padding: 5px;
 display: inline-block;
 float: left;
 list-style: none;
+}
+.contato{
+width: 40%;
+float: right;
 }
