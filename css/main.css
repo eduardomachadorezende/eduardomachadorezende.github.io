@@ -4,7 +4,7 @@ height: 100%;
 }
 .header-1 {
 width: 100%;
-background-color: #252523;
+background-color: #000000;
 height: 60px;
 }
 main {
@@ -17,12 +17,12 @@ padding: 10px;
 width: 60%;
 }
 .contato ul li{
-padding: 5px;
+padding: 1px;
 display: inline-block;
 float: left;
 list-style: none;
 }
 .contato{
-width: 40%;
+width: 30%;
 float: right;
 }
