@@ -1,11 +1,12 @@
+body, .header, .bordinha1, .Parte-de-baixo{
+width: 100%;    
+}
 body {
 position:relative;
 margin:0px;
-width: 100%;
 height: 100%;
 }
 .header-1 {
-width: 100%;
 background-color: #000000;
 height: 60px;
 }
@@ -29,12 +30,10 @@ width: 15%;
 float: right;
 }
 .bordinha1{
-width: 100%;
 background-color: #7c7c7c;
 height: 1px;
 }
 .Parte-de-baixo {
-width: 100%;
 background-color: #201f20;
 height: 100%;
 }
