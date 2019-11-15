@@ -28,6 +28,11 @@ list-style: none;
 width: 15%;
 float: right;
 }
+.bordinha1{
+width: 100%;
+background-color: #7c7c7c;
+height: 1px;
+}
 .Parte-de-baixo {
 width: 100%;
 background-color: #201f20;
