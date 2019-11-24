@@ -60,3 +60,13 @@ height: 100%;
 		font-weight: 900;
 	}
 }
+#Sobre-mim1{
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 100%;
+	font-weight: 900;
+	float: left;
+	padding: 1%;
+}
+#Sobre-mim1 > .Eu{
+	color: #eb0000;
+}
