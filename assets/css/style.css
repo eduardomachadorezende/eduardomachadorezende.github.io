@@ -1,72 +1,80 @@
 /* Hello World :-) */
 body, .header, .bordinha1, .Parte-de-baixo, .subdiv {
-width: 100%;    
-}
-body {
-position:relative;
-margin:0px;
-height: 100%;
-}
-.header-1 {
-	background-color: #000000;
-	align-items: center;
-}
-.subdiv{
-	display: inline-flex;
-	align-items: center;
-}
-.main {
-margin: 0 auto;
-position: relative;
-}
-.contato ul li {
-	display: inline-block;
-	list-style: none;
-}
-.contato ul {
-	float: right;
-}
-.bordinha1{
-background-color: #7c7c7c;
-height: 1px;
-}
-.Parte-de-baixo {
-background-color: #201f20;
-height: 100%;
-}
-#logo, .contato {
-	width: 50%;
-	padding: 0 2%;
-}
-#logo {
-	background-color: #00000000;
-	font-family: Impact, Charcoal, sans-serif;
-	font-size: 200%;
-	font-weight: 900;
-	float: left;
-	padding: 1%;
-}
-#logo > .brand1 {
-	color: #ffffff;
-}
-#logo > .brand2 {
-	color: #064778;
-}
-@media (max-width: 778px){
+	width: 100%;    
+	}
+	body {
+	position:relative;
+	margin:0px;
+	height: 100%;
+	}
+	.header-1 {
+		background-color: #000000;
+		align-items: center;
+	}
+	.subdiv{
+		display: inline-flex;
+		align-items: center;
+	}
+	.main {
+	margin: 0 auto;
+	position: relative;
+	}
+	.contato ul li {
+		display: inline-block;
+		list-style: none;
+	}
+	.contato ul {
+		float: right;
+	}
+	.bordinha1{
+	background-color: #7c7c7c;
+	height: 1px;
+	}
+	.Parte-De-Baixo {
+	background-color: #201f20;
+	height: 100%;
+	}
+	#logo, .contato {
+		width: 50%;
+		padding: 0 2%;
+	}
 	#logo {
 		background-color: #00000000;
 		font-family: Impact, Charcoal, sans-serif;
-		font-size: 150%;
+		font-size: 200%;
 		font-weight: 900;
+		float: left;
+		padding: 1%;
 	}
+	#logo > .brand1 {
+		color: #ffffff;
+	}
+	#logo > .brand2 {
+		color: #064778;
+	}
+	@media (max-width: 778px){
+		#logo {
+			background-color: #00000000;
+			font-family: Impact, Charcoal, sans-serif;
+			font-size: 150%;
+			font-weight: 900;
+		}
+	}
+	@font-face {
+	02    font-family: [nome];
+	src: url([caminho]);
 }
-#Sobre-mim1{
-	font-family: Impact, Charcoal, sans-serif;
-	font-size: 100%;
-	font-weight: 900;
-	float: left;
-	padding: 1%;
-}
-#Sobre-mim1 > .Eu{
-	color: #eb0000;
-}
+	#Sobre-mim1{
+		font-family: Impact, Charcoal, sans-serif;
+		font-size: 100%;
+		font-weight: 900;
+		float: left;
+		padding: 1%;
+	}
+	#Sobre-mim1 > .Eu{
+		color: #eb0000;
+	}
+	.Um-texto{
+		color: #ffffff;
+		font: 15px Apple Chancery, cursive
+	}
